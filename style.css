@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+body {
+    background: #AA5042;
+    font-family: 'Comic Neue', cursive;
+}
+h1 {
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 80px;
+    margin: 5px 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#players {
+    display: flex;
+    margin: auto;
+}
+.players-div {
+    margin: 5px 170px;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f5efd5;
+}
+button {
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    border: none;
+    outline: none;
+    background-color: burlywood;
+    border-radius: 5px;
+    font-family: 'Comic Neue', cursive;
+}
+button:active {
+    transform: translateY(4px);;
+}
+#game-board {
+    height: 606px;
+    width: 606px;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.game-div {
+    height: 200px;
+    width: 200px;
+    border: solid 1px black;
+    background-color: burlywood;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 100px;
+}
+.game-div:hover {
+    background-color: #E4D9C3;
+}
+.active-player {
+    color: #AA5042;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.winningBox {
+    background-color: gold;
+}
